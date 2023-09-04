@@ -1,0 +1,89 @@
+----------------------------------------------------------------------------------------------------------------
+Graph 1 - Remember to replace year
+----------------------------------------------------------------------------------------------------------------
+
+1. Number of claims - Open
+http://localhost:1337/graph1/open_count_by
+
+2. Number of claims - Closed
+http://localhost:1337/graph1/closed_count_by
+
+3. Number Of Zero Value Claims
+http://localhost:1337/graph1/zero_value_count_by
+
+
+
+------------------------------------------------------------------------------------------------------------------
+Graph 2 - Remember to Replace By Policy Year
+------------------------------------------------------------------------------------------------------------------
+
+1. Total Outstanding
+http://localhost:1337/graph2/total_outstanding_by
+
+2. Total Paid By Policy Year
+http://localhost:1337/graph2/total_paid_by
+
+3. Largest Claim By Policy Year
+http://localhost:1337/graph2/largest_claim_by
+
+
+
+------------------------------------------------------------------------------------------------------------------
+Graph 3 - Remove %20 for empty spaces
+------------------------------------------------------------------------------------------------------------------
+
+
+
+1. Total Incurred By Loss Banding
+http://localhost:1337/graph3/total_incurred_by?loss_banding=25,001%20to%2050,000
+
+2. Number Of Claims By Loss Banding
+http://localhost:1337/graph3/number_of_claims_by?loss_banding=25,001%20to%2050,000
+
+
+
+------------------------------------------------------------------------------------------------------------------
+Graph 4 - Remove %20 for empty spaces
+------------------------------------------------------------------------------------------------------------------
+
+
+
+1. Largest Claim By Loss Banding
+http://localhost:1337/graph4/largest_claim_by?loss_banding=25,001%20to%2050,000
+
+2. Average Cost by Loss Banding
+http://localhost:1337/graph4/average_cost_by?loss_banding=25,001%20to%2050,000
+
+
+
+------------------------------------------------------------------------------------------------------------------
+Dropdowns 
+------------------------------------------------------------------------------------------------------------------
+
+
+1. Loss Banding Values
+http://localhost:1337/dropdown/loss_banding_values
+
+2. Years 
+http://localhost:1337/dropdown/years
+
+3. Marsh Line Of Business 1
+http://localhost:1337/dropdown/marsh_line_of_business_1
+
+4. Marsh Line Of Business 2
+http://localhost:1337/dropdown/marsh_line_of_business_2
+
+5. Clients
+Marsh Line Of Business 1
+http://localhost:1337/dropdown/clients
+
+
+------------------------------------------------------------------------------------------------------------------
+Small Boxes 
+------------------------------------------------------------------------------------------------------------------
+
+1. Claims Box
+http://localhost:1337/smallBoxes/all_claims_count
+
+2. Total Incurred Box
+http://localhost:1337/smallBoxes/total_incurred
