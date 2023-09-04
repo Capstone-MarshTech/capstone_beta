@@ -1,0 +1,4 @@
+pandas==2.0.3
+python-dotenv==1.0.0
+pymongo==4.5.0
+ydata_profiling==4.5.1

@@ -1,0 +1,6 @@
+/node_modules
+.env
+/mongodb_uploads
+/data
+/trash
+/scripts/env
