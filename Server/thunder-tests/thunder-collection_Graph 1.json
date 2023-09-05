@@ -1,0 +1,112 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Graph 1",
+    "dateExported": "2023-09-05T02:00:46.950Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "18f2f28b-db2c-4253-8d9a-47400a2c45be",
+            "colId": "f25cbc95-1791-4000-be92-e3b62b1b3a05",
+            "containerId": "",
+            "name": "1. Number of claims - Open",
+            "url": "http://localhost:1337/graph1/open_count_by?year=2022&line_of_business_1=Casualty&line_of_business_2=EL/WC",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-09-02T14:41:22.590Z",
+            "modified": "2023-09-05T00:34:26.707Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "year",
+                    "value": "2022",
+                    "isPath": false
+                },
+                {
+                    "name": "line_of_business_1",
+                    "value": "Casualty",
+                    "isPath": false
+                },
+                {
+                    "name": "line_of_business_2",
+                    "value": "EL/WC",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "07a9b55e-17e8-4eac-bccf-665a39140237",
+            "colId": "f25cbc95-1791-4000-be92-e3b62b1b3a05",
+            "containerId": "",
+            "name": "2. Number of claims - Closed",
+            "url": "http://localhost:1337/graph1/closed_count_by?line_of_business_1=Casualty",
+            "method": "GET",
+            "sortNum": 130000,
+            "created": "2023-09-02T14:44:23.383Z",
+            "modified": "2023-09-05T01:25:05.022Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "year",
+                    "value": "2018",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "client",
+                    "value": "International UK Inc. (Demo)",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "line_of_business_1",
+                    "value": "Casualty",
+                    "isPath": false
+                },
+                {
+                    "name": "line_of_business_2",
+                    "value": "EL/WC",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "21ce71b8-6259-4c60-b170-40b88fc2f380",
+            "colId": "f25cbc95-1791-4000-be92-e3b62b1b3a05",
+            "containerId": "",
+            "name": "3. Number Of Zero Value Claims",
+            "url": "http://localhost:1337/graph1/zero_value_count_by?year=2019&client=International UK Inc. (Demo)&line_of_business_1=Motor&line_of_business_2=Motor",
+            "method": "GET",
+            "sortNum": 150000,
+            "created": "2023-09-02T14:45:30.258Z",
+            "modified": "2023-09-04T12:33:43.214Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "year",
+                    "value": "2019",
+                    "isPath": false
+                },
+                {
+                    "name": "client",
+                    "value": "International UK Inc. (Demo)",
+                    "isPath": false
+                },
+                {
+                    "name": "line_of_business_1",
+                    "value": "Motor",
+                    "isPath": false
+                },
+                {
+                    "name": "line_of_business_2",
+                    "value": "Motor",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}

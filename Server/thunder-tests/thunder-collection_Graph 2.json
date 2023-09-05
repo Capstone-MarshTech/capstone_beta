@@ -1,0 +1,128 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Graph 2",
+    "dateExported": "2023-09-05T02:00:34.848Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "4e7b3075-e819-4151-9670-02d7fbda565b",
+            "colId": "4fc9c299-e06d-4e83-9e5f-ebd1fbd94540",
+            "containerId": "",
+            "name": "1. Total Outstanding",
+            "url": "http://localhost:1337/graph2/total_outstanding_by?line_of_business_2=EL/WC&line_of_business_1=Casualty",
+            "method": "GET",
+            "sortNum": 120000,
+            "created": "2023-09-02T14:47:46.922Z",
+            "modified": "2023-09-04T13:13:30.075Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "year",
+                    "value": "2019",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "client",
+                    "value": "International UK Inc. (Demo)",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "line_of_business_1",
+                    "value": "Motor",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "line_of_business_2",
+                    "value": "EL/WC",
+                    "isPath": false
+                },
+                {
+                    "name": "line_of_business_2",
+                    "value": "General Liability",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "line_of_business_1",
+                    "value": "Casualty",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "97a4bdf9-e1a4-46b0-a236-21ea395e8afa",
+            "colId": "4fc9c299-e06d-4e83-9e5f-ebd1fbd94540",
+            "containerId": "",
+            "name": "2. Total Paid",
+            "url": "http://localhost:1337/graph2/total_paid_by?2017&line_of_business_1=Casualty&line_of_business_2=EL/WC&client=International UK Inc. (Demo)",
+            "method": "GET",
+            "sortNum": 150000,
+            "created": "2023-09-02T14:49:28.971Z",
+            "modified": "2023-09-05T01:29:45.866Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "2017",
+                    "value": "",
+                    "isPath": false
+                },
+                {
+                    "name": "line_of_business_1",
+                    "value": "Casualty",
+                    "isPath": false
+                },
+                {
+                    "name": "line_of_business_2",
+                    "value": "EL/WC",
+                    "isPath": false
+                },
+                {
+                    "name": "client",
+                    "value": "International UK Inc. (Demo)",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "bd0aaba0-f0b2-424d-a28f-bc83f9c9028e",
+            "colId": "4fc9c299-e06d-4e83-9e5f-ebd1fbd94540",
+            "containerId": "",
+            "name": "3. Largest Claim",
+            "url": "http://localhost:1337/graph2/largest_claim_by?year=2019&client=International UK Inc. (Demo)&line_of_business_1=Motor&line_of_business_2=EL/WC",
+            "method": "GET",
+            "sortNum": 170000,
+            "created": "2023-09-02T14:50:07.779Z",
+            "modified": "2023-09-04T13:08:25.653Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "year",
+                    "value": "2019",
+                    "isPath": false
+                },
+                {
+                    "name": "client",
+                    "value": "International UK Inc. (Demo)",
+                    "isPath": false
+                },
+                {
+                    "name": "line_of_business_1",
+                    "value": "Motor",
+                    "isPath": false
+                },
+                {
+                    "name": "line_of_business_2",
+                    "value": "EL/WC",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}
