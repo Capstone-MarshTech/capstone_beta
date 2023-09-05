@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Graph 4",
+    "dateExported": "2023-09-05T02:01:20.620Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e475e460-0d51-465f-9c61-278d33ce9898",
+            "colId": "a50560df-d7ea-42f4-999a-0d1b5dcf2785",
+            "containerId": "",
+            "name": "1. Largest Claim By Loss Banding",
+            "url": "http://localhost:1337/graph4/largest_claim_by?loss_banding=25,001 to 50,000&line_of_business_1=Casualty&year=2021&client=International UK Inc. (Demo)&line_of_business_2=EL/WC",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-09-02T15:20:44.582Z",
+            "modified": "2023-09-04T13:23:39.929Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "loss_banding",
+                    "value": "25,001 to 50,000",
+                    "isPath": false
+                },
+                {
+                    "name": "line_of_business_1",
+                    "value": "Casualty",
+                    "isPath": false
+                },
+                {
+                    "name": "year",
+                    "value": "2021",
+                    "isPath": false
+                },
+                {
+                    "name": "client",
+                    "value": "International UK Inc. (Demo)",
+                    "isPath": false
+                },
+                {
+                    "name": "line_of_business_2",
+                    "value": "EL/WC",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "d30d9cc3-1878-4a84-a0b9-0751d682b07e",
+            "colId": "a50560df-d7ea-42f4-999a-0d1b5dcf2785",
+            "containerId": "",
+            "name": "2. Average Cost by Loss Banding",
+            "url": "http://localhost:1337/graph4/average_cost_by?loss_banding=25,001 to 50,000&line_of_business_1=Casualty&line_of_business_2=General Liability&year=2018&client=International UK Inc. (Demo)",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-09-02T16:10:43.447Z",
+            "modified": "2023-09-04T13:24:34.677Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "loss_banding",
+                    "value": "25,001 to 50,000",
+                    "isPath": false
+                },
+                {
+                    "name": "line_of_business_1",
+                    "value": "Casualty",
+                    "isPath": false
+                },
+                {
+                    "name": "line_of_business_2",
+                    "value": "General Liability",
+                    "isPath": false
+                },
+                {
+                    "name": "year",
+                    "value": "2018",
+                    "isPath": false
+                },
+                {
+                    "name": "client",
+                    "value": "International UK Inc. (Demo)",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "SmallBoxes",
+    "dateExported": "2023-09-05T02:01:28.999Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "9a97c078-dd0f-46c0-ab08-53fa347329b6",
+            "colId": "716ae995-7508-47f2-b42b-8e11031f109e",
+            "containerId": "",
+            "name": "1. Number Of Claims Box",
+            "url": "http://localhost:1337/smallBoxes/all_claims_count_by?year=2019&line_of_business_1=Casualty&client=International UK Inc. (Demo)",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-09-02T16:14:34.762Z",
+            "modified": "2023-09-04T13:25:09.094Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "year",
+                    "value": "2019",
+                    "isPath": false
+                },
+                {
+                    "name": "line_of_business_1",
+                    "value": "Casualty",
+                    "isPath": false
+                },
+                {
+                    "name": "line_of_business_2",
+                    "value": "EL/WC",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "client",
+                    "value": "International UK Inc. (Demo)",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "d0087ef1-69ff-4e81-a658-5ac6feb28348",
+            "colId": "716ae995-7508-47f2-b42b-8e11031f109e",
+            "containerId": "",
+            "name": "2. Total Incurred Box",
+            "url": "http://localhost:1337/smallBoxes/total_incurred_by?year=2019&client=International UK Inc. (Demo)&line_of_business_1=Casualty",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-09-02T16:22:13.714Z",
+            "modified": "2023-09-04T13:25:31.241Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "year",
+                    "value": "2019",
+                    "isPath": false
+                },
+                {
+                    "name": "client",
+                    "value": "International UK Inc. (Demo)",
+                    "isPath": false
+                },
+                {
+                    "name": "line_of_business_1",
+                    "value": "Casualty",
+                    "isPath": false
+                },
+                {
+                    "name": "line_of_business_2",
+                    "value": "EL/WC",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}

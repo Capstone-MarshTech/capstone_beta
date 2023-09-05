@@ -1,0 +1,94 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Graph 3",
+    "dateExported": "2023-09-05T02:01:07.062Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e72ad1dc-7d9a-4f80-980d-272f24d10ae4",
+            "colId": "86383626-05d4-49a8-89af-123798f138ab",
+            "containerId": "",
+            "name": "1. Total Incurred By Loss Banding",
+            "url": "http://localhost:1337/graph3/total_incurred_by?loss_banding=25,001 to 50,000&year=2019&client=International UK Inc. (Demo)&line_of_business_2=EL/WC&line_of_business_1=Property&line_of_business_1=Casualty",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-09-02T14:56:45.455Z",
+            "modified": "2023-09-05T01:28:49.889Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "loss_banding",
+                    "value": "25,001 to 50,000",
+                    "isPath": false
+                },
+                {
+                    "name": "year",
+                    "value": "2019",
+                    "isPath": false
+                },
+                {
+                    "name": "client",
+                    "value": "International UK Inc. (Demo)",
+                    "isPath": false
+                },
+                {
+                    "name": "line_of_business_2",
+                    "value": "EL/WC",
+                    "isPath": false
+                },
+                {
+                    "name": "line_of_business_1",
+                    "value": "Property",
+                    "isPath": false
+                },
+                {
+                    "name": "line_of_business_1",
+                    "value": "Casualty",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "f99e44fb-facc-4a8a-8d51-64adba4a576e",
+            "colId": "86383626-05d4-49a8-89af-123798f138ab",
+            "containerId": "",
+            "name": "2. Number Of Claims By Loss Banding",
+            "url": "http://localhost:1337/graph3/number_of_claims_by?loss_banding=25,001 to 50,000&year=2021&client=International UK Inc. (Demo)&line_of_business_2=EL/WC&line_of_business_1=Casualty",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2023-09-02T16:02:56.622Z",
+            "modified": "2023-09-04T13:14:58.094Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "loss_banding",
+                    "value": "25,001 to 50,000",
+                    "isPath": false
+                },
+                {
+                    "name": "year",
+                    "value": "2021",
+                    "isPath": false
+                },
+                {
+                    "name": "client",
+                    "value": "International UK Inc. (Demo)",
+                    "isPath": false
+                },
+                {
+                    "name": "line_of_business_2",
+                    "value": "EL/WC",
+                    "isPath": false
+                },
+                {
+                    "name": "line_of_business_1",
+                    "value": "Casualty",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}

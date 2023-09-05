@@ -18,7 +18,7 @@ export const filterData = (filters) => {
             query.client_name = filters.client; 
         }
         
-        console.log(query);
+        // console.log(query);
         
         return query;
         //const filteredData = await Claim.find(query).lean();

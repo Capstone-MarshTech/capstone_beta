@@ -24,7 +24,6 @@ export const totalIncurredByLossBanding = async (req, res) => {
                 },
             },
         ];
-        console.log(aggregationPipeline);
 
         const total_incurred_keyValue = await Claim.aggregate(aggregationPipeline);
         const total_incurred_value = total_incurred_keyValue[0].total_incurred;
